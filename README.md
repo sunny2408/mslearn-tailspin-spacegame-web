@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/kenisunny4/FunToLearn/_apis/build/status%2Fsunny2408.mslearn-tailspin-spacegame-web?branchName=main)](https://dev.azure.com/kenisunny4/FunToLearn/_build/latest?definitionId=4&branchName=main)
 
 # Contributing
 
