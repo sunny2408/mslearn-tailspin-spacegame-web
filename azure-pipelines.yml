@@ -1,11 +1,12 @@
 trigger:
 - main
 
-pool: 
- name: Default
-
 variables:
  buildConfiguratrion: 'Release'
 
 steps:
-- script: dotnet build --configuration $(buildConfiguration)
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: '**/*.csproj'
+    arguments: '--configuration $(buildConfiguration)'
